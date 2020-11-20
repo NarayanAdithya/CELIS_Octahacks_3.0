@@ -21,7 +21,7 @@ CELIS was created using the following open source projects:
 * [Flask-Mail]                - Flask Addon for mailing services
 * Other Flask Add Ons
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://images.app.goo.gl/cKoAD6TGd4AJyCp97.gif)
 
 
 [Flask]: <https://flask.palletsprojects.com/en/1.1.x/>
