@@ -68,3 +68,45 @@ def logout():
     return redirect(url_for('index'))
 
 
+
+@app.route('/profile/<username>')
+@login_required
+def profile(username):
+    print(username)
+    user=User.query.filter_by(username=username).first()
+    if user:
+        if user.user_role=="Instructor":
+            posts=post.query.filter_by(user_id=user.id).all()
+            no_posts=len(posts)
+            c=user.provides_course.all()
+            return render_template('profile_instructor.html',title='Profile',user=user,no_posts=no_posts,posts=posts,courses=c)
+        elif user.user_role=="Student" :
+            posts=post.query.filter_by(user_id=user.id).all()
+            no_posts=len(posts)
+            courses=user.Courses_enrolled
+            return render_template('profile_student.html',title='Profile',user=user,no_posts=no_posts,posts=posts,courses=courses)
+    return redirect(url_for('profile',username=current_user.username))
+
+@app.route('/edit_profile',methods=['POST','GET'])
+@login_required
+def edit_profile():
+    if current_user.is_authenticated:
+        if request.method=='POST':
+            twitter_link=request.form['twitter_link']
+            facebook_link=request.form['linkedin_link']
+            instagram_link=request.form['github_link']
+            birthdate=request.form['birthdate']
+            about=request.form['interests']
+            user=User.query.filter_by(id=current_user.id).first()
+            user.twitter=twitter_link
+            user.facebook=facebook_link
+            user.instagram=instagram_link
+            user.birthdate=birthdate
+            user.Interests=about
+            db.session.commit()
+            flash('Changes Saved Successfully',category='success')
+            return redirect(url_for('profile',username=user.username))
+        return render_template('edit_profile.html',)
+    else:
+        return redirect(url_for('index'))
+
