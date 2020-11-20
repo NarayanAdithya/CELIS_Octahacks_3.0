@@ -1,10 +1,4 @@
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # CELIS :tipping_hand_man:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
