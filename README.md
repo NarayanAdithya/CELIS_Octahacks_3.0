@@ -1,17 +1,17 @@
-# CELIS
+# CELIS :raised_hands:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
 Centralised-E-Learning Information System or CELIS is your one stop location for all your educational needs.It provides an integrated environment in which People can access courses from any website at a single location.
 
 
-# Features 
+# Features :raised_hands:
   - Domain Specific Discussion Forums
   - Cross Platform Course View
   - Effective Course Recommendation
   - Unique Course Creation Oppurtunity for Instructors
   
   
-### Tech 
+### Tech :raised_hands:
 
 CELIS was created using the following open source projects:
 
