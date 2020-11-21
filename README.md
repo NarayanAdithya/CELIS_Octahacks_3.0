@@ -3,7 +3,7 @@
 ### <h2>Hello🙏🏻, We are Team Targaryen!
   </br>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em>We are a team and like to work in a team</em> 
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em>We are a team and like to work in a team!!</em> 
 
 # CELIS <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
