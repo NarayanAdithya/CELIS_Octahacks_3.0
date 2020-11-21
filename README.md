@@ -4,6 +4,7 @@
   </br>
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+
 # CELIS :tipping_hand_man:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
