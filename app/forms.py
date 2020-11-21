@@ -1,4 +1,5 @@
-#Web Forms for Registration and Signin Here
+#Auto Rendered Flask Forms Here
+
 from flask_wtf import FlaskForm
 from wtforms import StringField,PasswordField,BooleanField,SubmitField,RadioField,SelectField,TextAreaField
 from wtforms.fields.html5 import EmailField,URLField,DateField
@@ -22,7 +23,6 @@ class RegisterForm(FlaskForm):
         user=User.query.filter_by(email=email.data).first()
         if user is not None:
             raise ValidationError('Please Use A different Email Address')
-        
 class LoginForm(FlaskForm):
     email=EmailField('Email',validators=[DataRequired(),Email()],render_kw={'class':'form-control form-group'})
     password=PasswordField('Password',validators=[DataRequired()],render_kw={'class':'form-control form-group'})
@@ -31,4 +31,34 @@ class LoginForm(FlaskForm):
 
 
 
+class add_course_form(FlaskForm):
+    Course_Code=StringField('Course Code',validators=[DataRequired(),Length(min=5,max=10),],render_kw={'class':'form-control form-group'})
+    Course_Name=StringField('Course Name',validators=[DataRequired(),Length(min=10,max=100)],render_kw={'class':'form-control form-group'})
+    Course_description=TextAreaField('Enter Description',[DataRequired()],render_kw={'class':'form-control form-group'})
+    resources_link=StringField('Resources Link',render_kw={'class':'form-control form-group'})
+    submit=SubmitField('Add Course',render_kw={'class':'btn btn-primary btn-pill','style':'height : 50px;'})
+    def validate_Course_Code(self,Course_Code):
+        c=Courses.query.filter_by(course_code=Course_Code.data).first()
+        if c is not None:
+            raise ValidationError('Please Use a Different Code')
+    def validate_Course_Name(self,Course_Name):
+        c=Courses.query.filter_by(Course_name=Course_Name.data).first()
+        if c is not None:
+            raise ValidationError('Please Use a Different Course Name')   
 
+class RequestResetForm(FlaskForm):
+    email = EmailField('Email',
+                        validators=[DataRequired(), Email()],render_kw={'class':'form-control form-group'})
+    submit = SubmitField('Request Password Reset')
+
+    def validate_email(self, email):
+        user = User.query.filter_by(email=email.data).first()
+        if user is None:
+            raise ValidationError('There is no account with that email. You must register first.')
+
+
+class ResetPasswordForm(FlaskForm):
+    password = PasswordField('Password', validators=[DataRequired()],render_kw={'class':'form-control form-group'})
+    confirm_password = PasswordField('Confirm Password',
+                                     validators=[DataRequired(), EqualTo('password')],render_kw={'class':'form-control form-group'})
+    submit = SubmitField('Reset Password')
