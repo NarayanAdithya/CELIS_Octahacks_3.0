@@ -34,6 +34,7 @@ CELIS was created using the following open source projects:
 [Material Design Bootstrap]: <https://mdbootstrap.com/>
 [Flask-Socketio]: <https://flask-socketio.readthedocs.io/en/latest/>
 [Flask-Mail]: <https://pythonhosted.org/Flask-Mail/>
+</br></br></br><img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+
 ![bottom.png](https://i.loli.net/2020/07/12/b3grZD6LFseGuUP.png)
 
-</br></br></br><img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
