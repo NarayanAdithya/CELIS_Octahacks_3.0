@@ -21,7 +21,8 @@ Centralised-E-Learning Information System or CELIS is your one stop location for
   
   <img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
   
-### Tech :raised_hands:
+
+# Tech :raised_hands:
 
 CELIS was created using the following open source projects:
 * [Material Design Bootstrap] - Front-End Framework
