@@ -46,7 +46,7 @@ CELIS was created using the following open source projects:
 [FlaskWTF Forms]: <https://flask-wtf.readthedocs.io/en/stable/>
 [Flask Login]: <https://flask-login.readthedocs.io/en/latest/>
 [SQLite Engine]: <https://www.sqlite.org/index.html>
-</br></br></br><img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+
 
 ![bottom.png](https://i.loli.net/2020/07/12/b3grZD6LFseGuUP.png)
 
