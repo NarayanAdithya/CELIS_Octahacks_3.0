@@ -4,13 +4,12 @@
   </br>
 
 
-<img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
-</br></br></br>
+
 
 # CELIS :tipping_hand_man:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
-Centralised-E-Learning Information System or CELIS is your one stop location for all your educational needs.It provides an integrated environment in which People can access courses from any website at a single location.
+Centralised-E-Learning Information System or CELIS is your one stop location for all your educational needs.It provides an integrated environment in which People can access courses from any website at a single location. </br><img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
 
 
 
