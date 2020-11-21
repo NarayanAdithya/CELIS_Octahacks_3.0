@@ -19,7 +19,7 @@ Centralised-E-Learning Information System or CELIS is your one stop location for
   - Effective Course Recommendation
   - Unique Course Creation Oppurtunity for Instructors
   
-  </br></br></br><img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+  <img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
   
 ### Tech :raised_hands:
 
