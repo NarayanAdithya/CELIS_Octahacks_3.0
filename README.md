@@ -21,12 +21,16 @@ Centralised-E-Learning Information System or CELIS is your one stop location for
 ### Tech :raised_hands:
 
 CELIS was created using the following open source projects:
-
-* [Flask]                     - Python Framework for back-end
 * [Material Design Bootstrap] - Front-End Framework
+* [Bootstrap 4] - Front-End Framework
+* [Flask]                     - Python framework for back-end
 * [Flask-Socketio]            - Flask add on for socket.io support
-* [Flask-Mail]                - Flask Addon for mailing services
-* Other Flask Add Ons
+* [Flask-Mail]                - Flask addon for mailing services
+* [Flask-SQLAlchemy]          - Flask package for manipulating databases
+* [Flask Migrate]             - Flask package for databse version control
+* [FlaskWTF Forms]            - Flask form handler
+* [Flask Login]               - Handles Login/Logout
+* [SQLite Engine]             - Database used
 
 
 
@@ -34,7 +38,13 @@ CELIS was created using the following open source projects:
 [Material Design Bootstrap]: <https://mdbootstrap.com/>
 [Flask-Socketio]: <https://flask-socketio.readthedocs.io/en/latest/>
 [Flask-Mail]: <https://pythonhosted.org/Flask-Mail/>
-</br></br></br><img align=""  src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+[Bootstrap 4]: <https://getbootstrap.com/docs/4.0/getting-started/introduction/>
+[Flask-SQLAlchemy]: <https://flask-sqlalchemy.palletsprojects.com/en/2.x/>
+[Flask Migrate]: <https://flask-migrate.readthedocs.io/en/latest/>
+[FlaskWTF Forms]: <https://flask-wtf.readthedocs.io/en/stable/>
+[Flask Login]: <https://flask-login.readthedocs.io/en/latest/>
+[SQLite Engine]: <https://www.sqlite.org/index.html>
+</br></br></br><img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
 
 ![bottom.png](https://i.loli.net/2020/07/12/b3grZD6LFseGuUP.png)
 
