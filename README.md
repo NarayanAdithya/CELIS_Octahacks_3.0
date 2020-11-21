@@ -3,7 +3,8 @@
 ### <h2>Hello🙏🏻, We are Team Targaryen!
   </br>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> # CELIS :tipping_hand_man:
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+# CELIS :tipping_hand_man:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
 Centralised-E-Learning Information System or CELIS is your one stop location for all your educational needs.It provides an integrated environment in which People can access courses from any website at a single location.
@@ -44,7 +45,7 @@ CELIS was created using the following open source projects:
 [FlaskWTF Forms]: <https://flask-wtf.readthedocs.io/en/stable/>
 [Flask Login]: <https://flask-login.readthedocs.io/en/latest/>
 [SQLite Engine]: <https://www.sqlite.org/index.html>
-</br></br></br><img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+</br></br></br><img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
 
 ![bottom.png](https://i.loli.net/2020/07/12/b3grZD6LFseGuUP.png)
 
