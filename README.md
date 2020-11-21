@@ -19,7 +19,7 @@ Centralised-E-Learning Information System or CELIS is your one stop location for
   - Effective Course Recommendation
   - Unique Course Creation Oppurtunity for Instructors
   
-  
+  </br></br></br><img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
 ### Tech :raised_hands:
 
 CELIS was created using the following open source projects:
@@ -28,7 +28,7 @@ CELIS was created using the following open source projects:
 * [Flask]                     - Python framework for back-end
 * [Flask-Socketio]            - Flask add on for socket.io support
 * [Flask-Mail]                - Flask addon for mailing services
-* [Flask-SQLAlchemy]          - Flask package for manipulating databases </br></br></br><img align="right" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
+* [Flask-SQLAlchemy]          - Flask package for manipulating databases
 * [Flask Migrate]             - Flask package for databse version control
 * [FlaskWTF Forms]            - Flask form handler
 * [Flask Login]               - Handles Login/Logout
