@@ -6,6 +6,7 @@
 
 <img align="" src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="200" height="200"/>
 </br></br></br>
+
 # CELIS :tipping_hand_man:
 
 We have all come across the problem of finding just the right course in the right website at the right time.CELIS is here to help!
