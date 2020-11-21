@@ -41,7 +41,7 @@ CELIS was created using the following open source projects:
 [Flask]: <https://flask.palletsprojects.com/en/1.1.x/>
 [Material Design Bootstrap]: <https://mdbootstrap.com/>
 [Flask-Socketio]: <https://flask-socketio.readthedocs.io/en/latest/>
-[![Heroku](https://img.shields.io/badge/-Heroku-gray?style=flat&logo=heroku&link=https://github.com/BRdhanani)](https://github.com/BRdhanani)[Flask-Mail]: <https://pythonhosted.org/Flask-Mail/>
+[Flask-Mail]: <https://pythonhosted.org/Flask-Mail/>
 [Bootstrap 4]: <https://getbootstrap.com/docs/4.0/getting-started/introduction/>
 [Flask-SQLAlchemy]: <https://flask-sqlalchemy.palletsprojects.com/en/2.x/>
 [Flask Migrate]: <https://flask-migrate.readthedocs.io/en/latest/>
